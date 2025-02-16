@@ -2,6 +2,9 @@ trigger:
 - '*'
 
 strategy:
+  matrix:
+    linux:
+      platform: linux
   maxParallel: 1
 
 pool:
