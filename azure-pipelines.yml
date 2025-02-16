@@ -2,7 +2,6 @@ trigger:
 - '*'
 
 strategy:
-  matrix: {...}
   maxParallel: 1
 
 pool:
